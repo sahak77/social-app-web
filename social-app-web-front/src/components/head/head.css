@@ -1,0 +1,123 @@
+.head1 {
+    position: relative;
+    width: 62%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+.head2{
+    position: absolute;
+    left:0;
+    z-index: 99;
+}
+
+/* line animation */
+
+.anim_line::before,
+.anim_line::after {
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: white;
+    transition: 0.2s;
+    position: absolute;
+    bottom: 0;
+}
+.anim_line::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.anim_line::after {
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.anim_line:hover::before {
+    width: 100%;
+    transition-duration: 0.4s;
+}
+.anim_line {
+    display: block;
+    position: relative;
+    transition: 0.5s;
+}
+
+/* search */
+
+.search{
+    position:relative;
+    height: 45px;
+    margin-top: 6px;
+}
+.search input{
+    width:45px;
+    height:45px;
+    background-color:#fff;
+    border:none;
+    outline:none;
+    border-radius:25px;
+    padding:5px;
+    color:#61ab70;
+    font-size:17px;
+    text-indent:10px;
+    transition:.5s;
+}
+.search input::placeholder{
+    color:#849891;
+}
+.search span{
+    position:absolute;
+    width:45px;
+    height:45px;
+    right:0px;
+    background-color:#61ab70;
+    color:#fff;
+    font-size:18px;
+    text-align:center;
+    line-height:45px;
+    border-radius:50%;
+    cursor:pointer;
+    transition:.5s;
+    border:none;
+    outline:none;
+}
+.search input{
+    width:270px;
+}
+.search:hover span{
+    transform:scale(1.07);
+    box-shadow:-3px 0px 15px rgba(0,0,0,.5);
+}
+.sty_true{
+    overflow: scroll;
+    position: absolute;
+    width: 275px;
+    margin-top: 50px;
+    height: auto;
+    max-height:200px;
+    background-color: white;
+    color:#21273c;
+    z-index: 999;
+    overflow-x: hidden; 
+}
+.sty_true .singleSerchRes{
+    border-bottom: 1px solid #22273c;
+}
+
+.sty_false{
+    display: none;
+}
+.sty_true::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #22273c; 
+}
+.sty_true::-webkit-scrollbar-thumb {
+    background: #61ab70; 
+}
+.sty_true::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}
+

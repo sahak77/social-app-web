@@ -1,0 +1,84 @@
+.close_single_page{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    width: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #616161;
+    transition: color .4s;
+}
+.close_single_page:hover{
+    color: white;
+}
+.hide_scroll{
+    overflow: hidden;
+}
+.com_link{
+    font-weight: 600;
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+.single_page_cont{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 99; left: 0px;
+    top: 0px; display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px
+}
+.page{
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex: row
+}
+.img_cont{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; width: auto;
+    background-color: black;
+    padding: 0px 5px 0px 5px 
+}
+.postImg{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%
+}
+.side{
+    width: 360px;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column
+}
+.user_avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%
+}
+.text_cont{
+    width: auto;
+    height: auto;
+    max-height: 230px;
+    overflow: auto
+}
+.com_box{
+    padding: 8px 10px;
+    margin: 10px 0px 10px 0px; 
+    background-color: #dae0e5;
+    color: #444856; 
+    border-radius: 18px;
+    word-break: break-word;
+    width: 100%
+}

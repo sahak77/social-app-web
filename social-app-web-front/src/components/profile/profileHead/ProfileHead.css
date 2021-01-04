@@ -1,0 +1,46 @@
+.coverImg{
+    width: 100%;
+    height: 470px;
+    border-radius: 20px;
+    background-color: #1b1e2b
+}
+.addCoverImg{
+    width: 45px;
+    height: 45px;
+    margin-right: 7px
+}
+.coverImgArea{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.coverImgCont{
+    position: relative;
+    width: 860px;
+    margin: auto
+}
+.fullname{
+    padding: 10px;
+    width: auto;
+    height: auto;
+   background-color: rgba(0,0,0,0.5);
+    position: absolute; left: 220px;
+    bottom: 20px
+}
+.addAvatar{
+    margin-top: 30px;
+    z-index: 44;
+    margin-left: 145px;
+    width: 860px;
+    margin: auto
+}
+.invalidImg{
+    color: #ff4343;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    margin: 10px 0px 0px 0px;
+    left: 0px;
+    width: 100%
+}

@@ -1,0 +1,68 @@
+/* auth */
+
+.log-in {
+    color: white;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+.form-div {
+    width: 800px;
+    background-color: #20283d;
+    transform: skewX(-23deg);
+    position: relative;
+    height: auto;
+    min-height: 100%;
+    z-index: 100;
+    margin: auto;
+}
+.line {
+    width: 3px;
+    height: 40px;
+    background-color: white;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form div {
+    width: 300px;
+    padding-bottom: 10px;
+    overflow-y: hidden;
+}
+.signUp_alert{
+    width:auto; 
+    background-color: rgba(40, 167, 69, 0.7);
+    position: fixed;
+    left: calc(50% - 180px);
+    padding:10px 20px 10px 20px;
+    border-radius: 10px
+}
+
+/* field */
+
+::placeholder {
+    color: #6b748f;
+}
+.form input {
+    width: 300px;
+    background-color: #20283d;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 20px 0px 5px 2px;
+    border-bottom: 1px solid #6b748f;
+    color: #6b748f;
+}
+
+/* authbtn */
+
+.form button {
+    width: 300px;
+    margin-top: 220px;
+}
+
+
+
+
+

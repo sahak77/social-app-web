@@ -1,0 +1,42 @@
+.addpost{
+    height: auto;
+    background-color: #21273c;
+    margin-bottom :35px;
+    border-radius: 10px;
+}
+textarea{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding:9px 0px 0px 15px ;
+
+}
+.addPostAvatar{
+    width: 70px;
+    height: 70px;
+    margin: 30px 15px 30px 15px;
+
+}
+.title{
+    background-color: #21273c;
+    width: 90%;
+    padding: 5px;
+    color: #ffffff
+}
+.newPostCont{
+    border-bottom: 2px solid #58d472;
+    border-width: 5px;
+    border-radius: 10px;
+    position: relative 
+}
+.required{
+    color: red;
+    position: absolute;
+    left: 20px
+}
+.imgUrl{
+    width: 97%;
+    padding: 5px;
+    border-bottom: 2px solid #58d472;
+    border-radius: 8px
+}
